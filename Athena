@@ -1,0 +1,8 @@
+local player = game.Players.LocalPlayer
+
+if player.Name == "Cold6765" then
+	print("Whitelisted")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Rat21124/TestTest/main/TestTest"))();
+	else 
+	player:Kick("Wat probeer je?")
+end
